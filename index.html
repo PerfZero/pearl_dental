@@ -1,82 +1,407 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="header-top">
-            <div class="container">
-                <div class="header-top-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <img src="assets/img/location.svg" alt="location" class="icon">
-                            </div>
-                            <span>г. Город, ул. Улица, д. 01</span>
-                        </div>
-                        <span class="separator"></span>
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <img src="assets/img/clock.svg" alt="clock" class="icon">
-                            </div>
-                            <span>Пн-Вс: 8.00-21.00</span>
-                        </div>
-                        <span class="separator"></span>
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <img src="assets/img/email.svg" alt="email" class="icon">
-                            </div>
-                            <span>pearl.stom@mail.ru</span>
-                        </div>
-                        <span class="separator"></span>
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <img src="assets/img/phone.svg" alt="phone" class="icon">
-                            </div>
-                            <span>8 800 123-56-78</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
-                            <img src="assets/img/telegram.svg" alt="telegram">
-                        </a>
-                        <a href="#" class="social-link">
-                            <img src="assets/img/vk.svg" alt="vk">
-                        </a>
-                    </div>
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <img
+                    src="assets/img/location.svg"
+                    alt="location"
+                    class="icon"
+                  />
                 </div>
-            </div>
-        </div>
-        <div class="header-bottom">
-            <div class="container">
-                <div class="header-bottom-content">
-                    <div class="logo">
-                        <img src="/assets/img/logo.png" alt="">
-                    </div>
-                    <nav class="main-menu">
-                        <ul class="menu-list">
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">О клинике</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Специалисты</a></li>
-                            <li><a href="#">Акции</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Гарантии</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
+                <span>г. Город, ул. Улица, д. 01</span>
+              </div>
+              <span class="separator"></span>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <img src="assets/img/clock.svg" alt="clock" class="icon" />
                 </div>
+                <span>Пн-Вс: 8.00-21.00</span>
+              </div>
+              <span class="separator"></span>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <img src="assets/img/email.svg" alt="email" class="icon" />
+                </div>
+                <span>pearl.stom@mail.ru</span>
+              </div>
+              <span class="separator"></span>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <img src="assets/img/phone.svg" alt="phone" class="icon" />
+                </div>
+                <span>8 800 123-56-78</span>
+              </div>
             </div>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img src="assets/img/telegram.svg" alt="telegram" />
+              </a>
+              <a href="#" class="social-link">
+                <img src="assets/img/vk.svg" alt="vk" />
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom-content">
+            <div class="logo">
+              <img src="/assets/img/logo.png" alt="" />
+            </div>
+            <nav class="main-menu">
+              <ul class="menu-list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О клинике</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Специалисты</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Гарантии</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+            <button class="burger-menu" id="burgerMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-left">
+            <h1 class="hero-title">Добро пожаловать!</h1>
+            <h2 class="hero-subtitle">
+              <span> PEARL Dental care </span><br />Ваша улыбка — наша забота!
+            </h2>
+            <p class="hero-description">
+              Мы рады, что вы выбрали нас для заботы о вашем здоровье и красоте
+              улыбки. Наша команда опытных специалистов использует современные
+              технологии и индивидуальный подход к каждому пациенту.
+            </p>
+            <form action="" class="hero-form">
+              <input
+                type="tel"
+                placeholder="+7 (___) ___-__-__"
+                class="hero-form-input"
+              />
+              <button type="submit" class="hero-form-btn">
+                ЗАПИСАТЬСЯ
+                <svg
+                  width="44"
+                  height="44"
+                  viewBox="0 0 44 44"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M35.4268 22.7071C35.8174 22.3166 35.8174 21.6834 35.4268 21.2929L29.0629 14.9289C28.6724 14.5384 28.0392 14.5384 27.6487 14.9289C27.2581 15.3195 27.2581 15.9526 27.6487 16.3431L33.3055 22L27.6487 27.6569C27.2581 28.0474 27.2581 28.6805 27.6487 29.0711C28.0392 29.4616 28.6724 29.4616 29.0629 29.0711L35.4268 22.7071ZM8.92773 22V23H34.7197V22V21H8.92773V22Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21.8242 1C33.3173 1.00012 42.6484 10.3945 42.6484 22C42.6484 33.6055 33.3173 42.9999 21.8242 43C10.331 43 1 33.6056 1 22C1 10.3944 10.331 1 21.8242 1Z"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+              <p class="hero-disclaimer">
+                * Оставляя свои контактные данные, вы даете согласие на
+                обработку персональных данных
+              </p>
+            </form>
+          </div>
+          <div class="hero-right">
+            <div class="hero-image">
+              <img src="assets/img/hero-image.png" alt="Стоматология" />
+            </div>
+            <div class="hero-offer">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.5 0L15.8761 9.12387L25 12.5L15.8761 15.8761L12.5 25L9.12387 15.8761L0 12.5L9.12387 9.12387L12.5 0Z"
+                  fill="#0BA69E"
+                />
+              </svg>
+              <div class="offer-title-content">
+                <h3 class="offer-title">Специальное предложение</h3>
+                <div class="offer-date">Акция до 30 марта</div>
+                <div class="offer-text">Приведи друга, получи скидку 20%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-left">
+            <div class="about-image">
+              <img src="assets/img/about-image.jpg" alt="О клинике" />
+            </div>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number">12+</div>
+                <div class="stat-text">лет существует<br />клиника</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-text">
+                  средний<br />опыт работы<br />врачей
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-text">
+                  положительных<br />отзывов<br />пациентов
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-right">
+            <h2 class="about-title">
+              Добро пожаловать <br />
+              <span> на сайт стоматологии!</span>
+            </h2>
+            <p class="about-description">
+              Мы рады, что вы выбрали нас для заботы о вашем здоровье и красоте
+              улыбки. Наша команда опытных специалистов использует современные
+              технологии и индивидуальный подход к каждому пациенту.
+            </p>
+            <p class="about-description">
+              Мы предлагаем широкий спектр услуг: от лечения и профилактики до
+              эстетической стоматологии и протезирования.
+            </p>
+            <p class="about-description">
+              Ваш комфорт и уверенность в результате — наша главная цель.
+              Запишитесь на консультацию и доверьте свою улыбку профессионалам!
+            </p>
+            <button class="about-btn">ЗАПИСАТЬСЯ НА ПРИЕМ</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-header">
+                <h2 class="advantages-title">Наши преимущества — <span>ваш ключ <br> к здоровым зубам</span></h2>
+                <p class="advantages-description">Нам стоит доверять, потому что мы сочетаем опыт, современные технологии и заботу о каждом пациенте. Наши специалисты регулярно повышают квалификацию, а клиника оснащена передовым оборудованием. Мы предлагаем широкий спектр услуг, доступные цены и индивидуальный подход. Ваше здоровье и комфорт — наш главный приоритет.</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_1.png" alt="Опытные специалисты">
+                        </div>
+                        <h3 class="advantage-title">Опытные специалисты</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_2.png" alt="Современное оборудование">
+                        </div>
+                        <h3 class="advantage-title">Современное оборудование</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_3.png" alt="Индивидуальный подход">
+                        </div>
+                        <h3 class="advantage-title">Индивидуальный подход</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_4.png" alt="Доступные цены">
+                        </div>
+                        <h3 class="advantage-title">Доступные цены</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_5.png" alt="Широкий спектр услуг">
+                        </div>
+                        <h3 class="advantage-title">Широкий спектр услуг</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <div class="advantage-icon">
+                            <img src="assets/img/advantage_6.png" alt="Комфорт и безопасность">
+                        </div>
+                        <h3 class="advantage-title">Комфорт и безопасность</h3>
+                    </div>
+                    <p class="advantage-text">Наша команда — это высококвалифицированные врачи с многолетним опытом работы, которые регулярно повышают свою квалификацию.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <div class="mobile-logo">
+            <img src="/assets/img/logo.png" alt="Logo" />
+          </div>
+        </div>
+
+        <div class="mobile-menu-content">
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li><a href="#" class="mobile-nav-link">Главная</a></li>
+              <li><a href="#" class="mobile-nav-link">О клинике</a></li>
+              <li><a href="#" class="mobile-nav-link">Услуги</a></li>
+              <li><a href="#" class="mobile-nav-link">Специалисты</a></li>
+              <li><a href="#" class="mobile-nav-link">Акции</a></li>
+              <li><a href="#" class="mobile-nav-link">Цены</a></li>
+              <li><a href="#" class="mobile-nav-link">Отзывы</a></li>
+              <li><a href="#" class="mobile-nav-link">Гарантии</a></li>
+              <li><a href="#" class="mobile-nav-link">Блог</a></li>
+              <li><a href="#" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="mobile-contact-section">
+            <h3 class="mobile-section-title">Контакты</h3>
+            <div class="mobile-contact-grid">
+              <div class="mobile-contact-card">
+                <div class="mobile-contact-icon">
+                  <img src="assets/img/location.svg" alt="location" />
+                </div>
+                <div class="mobile-contact-text">
+                  <span class="mobile-contact-label">Адрес</span>
+                  <span class="mobile-contact-value"
+                    >г. Город, ул. Улица, д. 01</span
+                  >
+                </div>
+              </div>
+
+              <div class="mobile-contact-card">
+                <div class="mobile-contact-icon">
+                  <img src="assets/img/clock.svg" alt="clock" />
+                </div>
+                <div class="mobile-contact-text">
+                  <span class="mobile-contact-label">Время работы</span>
+                  <span class="mobile-contact-value">Пн-Вс: 8.00-21.00</span>
+                </div>
+              </div>
+
+              <div class="mobile-contact-card">
+                <div class="mobile-contact-icon">
+                  <img src="assets/img/phone.svg" alt="phone" />
+                </div>
+                <div class="mobile-contact-text">
+                  <span class="mobile-contact-label">Телефон</span>
+                  <span class="mobile-contact-value">8 800 123-56-78</span>
+                </div>
+              </div>
+
+              <div class="mobile-contact-card">
+                <div class="mobile-contact-icon">
+                  <img src="assets/img/email.svg" alt="email" />
+                </div>
+                <div class="mobile-contact-text">
+                  <span class="mobile-contact-label">Email</span>
+                  <span class="mobile-contact-value">pearl.stom@mail.ru</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-social-section">
+            <h3 class="mobile-section-title">Мы в соцсетях</h3>
+            <div class="mobile-social-buttons">
+              <a href="#" class="mobile-social-btn telegram">
+                <img src="assets/img/telegram.svg" alt="telegram" />
+                <span>Telegram</span>
+              </a>
+              <a href="#" class="mobile-social-btn vk">
+                <img src="assets/img/vk.svg" alt="vk" />
+                <span>ВКонтакте</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const burgerMenu = document.getElementById("burgerMenu");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        function openMobileMenu() {
+          mobileMenu.classList.add("active");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeMobileMenu() {
+          mobileMenu.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+
+        burgerMenu.addEventListener("click", function () {
+          if (mobileMenu.classList.contains("active")) {
+            closeMobileMenu();
+          } else {
+            openMobileMenu();
+          }
+        });
+
+        const mobileMenuOverlay = mobileMenu.querySelector(
+          ".mobile-menu-overlay"
+        );
+        mobileMenuOverlay.addEventListener("click", closeMobileMenu);
+
+        const mobileMenuLinks = mobileMenu.querySelectorAll(".mobile-nav-link");
+        mobileMenuLinks.forEach((link) => {
+          link.addEventListener("click", closeMobileMenu);
+        });
+      });
+    </script>
+  </body>
 </html>

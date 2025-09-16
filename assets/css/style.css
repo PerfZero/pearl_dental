@@ -1079,3 +1079,345 @@
 
   padding-top: 25px;
 }
+
+.specialists-title {
+  font: 800 36px var(--second-family);
+  color: #4d4646;
+  margin-bottom: 15px;
+}
+
+.specialists-title span {
+  font: 800 36px var(--second-family);
+  color: #0ba69e;
+}
+
+.specialists-description {
+  font: 400 18px var(--font-family);
+  color: #000;
+}
+
+.specialists-swiper {
+  margin-top: 50px;
+}
+
+.specialists {
+  padding-top: 80px;
+}
+
+.specialist-info {
+  padding: 35px;
+  border: 1px solid #dfdfdf;
+  border-radius: 0 0 30px 30px;
+
+  background: #f6faf9;
+}
+
+.specialist-experience {
+  font: 700 16px var(--font-family);
+  color: #616161;
+  border: 2px solid #1dd0d7;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 0 10px;
+  height: 34px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.specialist-name {
+  font: 700 18px var(--font-family);
+  color: #4d4646;
+  margin-bottom: 15px;
+}
+
+.specialist-position {
+  font: 600 18px var(--font-family);
+  color: #8c8c8c;
+  margin-bottom: 15px;
+}
+
+.specialist-btn {
+  font: 700 16px var(--font-family);
+  letter-spacing: 0.1em;
+  color: #fff;
+  border-radius: 39px;
+  padding: 0 5px 0 25px;
+  height: 54px;
+  gap: 40px;
+  background: linear-gradient(105deg, #3bc7bf 0%, #0ba69e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialists-navigation .arrow-btn {
+  background: #f6faf9;
+}
+
+.pricing {
+  background-image: url(/assets/img/back_price.png);
+  padding: 50px 0;
+  margin-top: 80px;
+  background-size: cover;
+}
+
+.pricing-title {
+  font: 800 36px var(--second-family);
+  color: #4d4646;
+  margin-bottom: 15px;
+}
+
+.pricing-title span {
+  font: 800 36px var(--second-family);
+  color: #0ba69e;
+}
+
+.pricing-header {
+  margin-bottom: 30px;
+}
+
+.pricing-description {
+  font: 400 18px / 139% var(--font-family);
+  color: #000;
+}
+
+.pricing-table-header {
+  margin-bottom: 0;
+}
+
+.table-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #0ba69e;
+  border-radius: 30px 30px 0 0;
+  color: white;
+}
+
+.header-service {
+  font: 600 18px var(--font-family);
+  color: white;
+}
+
+.header-price {
+  font: 700 18px var(--font-family);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+}
+
+.header-price span {
+  font: italic 400 14px var(--font-family);
+}
+
+.pricing-accordion {
+  border: 1px solid #dfdfdf;
+  border-radius: 0 0 30px 30px;
+  background: #f6faf9;
+  padding: 24px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid #a5ddda;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.accordion-title {
+  font: 700 22px var(--font-family);
+  color: #4d4646;
+  margin-bottom: 0;
+}
+
+.accordion-item.active .accordion-title {
+  margin-bottom: 35px;
+}
+
+.accordion-icon svg {
+  transition: transform 0.3s;
+}
+
+.accordion-item.active .accordion-icon svg {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  background: white;
+  padding: 0;
+  max-height: 0;
+
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 500px;
+}
+
+.service-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-row:last-child {
+  border-bottom: none;
+}
+
+.service-name {
+  font: 400 18px / 139% var(--font-family);
+  color: #000;
+}
+
+.service-price {
+  font: 600 16px var(--font-family);
+  color: #0ba69e;
+}
+
+.doctor-profile-wrapper{
+  display: flex;
+  border: 1px solid #dfdfdf;
+border-radius: 30px;
+background: #f6faf9;
+margin-top: 80px;
+padding: 35px 50px;
+gap: 40px;
+}
+
+.doctor-profile-wrapper > *{
+flex:1;   }
+
+.doctor-visual{
+  max-width: 447px;
+}
+
+.doctor-name{
+  font: 800 36px var(--second-family);
+  color: #0d9a93;
+  margin-bottom: 0;
+}
+
+.doctor-title{
+  font: 700 22px var(--font-family);
+color: #4d4646;
+margin-bottom: 5px;
+}
+
+.doctor-bio{
+  font: 400 18px / 139% var(--font-family);
+color: #000;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.doctor-info{
+  display: flex
+  ;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+}
+
+.doctor-achievements{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.achievement-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.achievement-number{
+  font: 900 56px / 35% var(--font-family);
+  color: #0d9a93;
+}
+
+.achievement-label{
+  font: 500 18px / 111% var(--font-family);
+color: #4d4646;
+}
+
+.book-appointment{
+  font: 700 16px var(--font-family);
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 39px;
+  padding: 0 5px 0 25px;
+  height: 54px;
+  gap: 40px;
+  background: linear-gradient(105deg, #3bc7bf 0%, #0ba69e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-badge{
+  border: 2px solid #fff;
+  border-radius: 20px;
+  backdrop-filter: blur(33.900001525878906px);
+  background: rgba(255, 255, 255, 0.301);
+  padding: 20px;
+  position: absolute;
+  bottom: 70px;
+  display: flex
+;
+
+width: 473px;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  right: 70px;
+}
+
+
+
+.promo-title{
+  font: 700 20px / 125% var(--font-family);
+  color: #0ba69e;
+}
+
+.promo-date{
+  font: 500 18px / 139% var(--font-family);
+  color: #616161;
+}
+
+.promo-description{
+  font: 500 18px / 139% var(--font-family);
+  color: #616161;
+} 
+
+.doctor-visual{
+  position: relative;
+}
+
+  

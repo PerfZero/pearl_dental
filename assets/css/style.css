@@ -558,7 +558,7 @@
 }
 
 .hero {
-  background-image: url(/assets/img/back_hero.png);
+  background-image: url(/assets/img/back_hero.webp);
   background-position: center;
   width: 98%;
   margin: 0 auto;
@@ -1033,7 +1033,7 @@
 }
 
 .bonus-content {
-  background-image: url(/assets/img/back_bonus.png);
+  background-image: url(/assets/img/back_bonus.webp);
   background-size: cover;
   display: flex;
   position: relative;
@@ -1371,7 +1371,7 @@ padding: 30px;
 
 .location-info-content{
   box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.1);
-background: url(/assets/img/map.png);
+background: url(/assets/img/map.webp);
 border: 1px solid #dfdfdf;
 border-radius: 30px;
 position: absolute;
@@ -1507,7 +1507,7 @@ padding: 40px;
 }
 
 .pricing {
-  background-image: url(/assets/img/back_price.png);
+  background-image: url(/assets/img/back_price.webp);
   padding: 50px 0;
   margin-top: 80px;
   background-size: cover;
@@ -1778,7 +1778,7 @@ width: 473px;
 
   
 .reviews{
-  background-image: url(/assets/img/review.png);
+  background-image: url(/assets/img/review.webp);
   padding: 67px 0;
   background-repeat: no-repeat;
   background-size: cover;

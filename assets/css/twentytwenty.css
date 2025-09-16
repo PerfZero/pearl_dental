@@ -1,0 +1,85 @@
+/* TwentyTwenty CSS - минимальная версия для работы */
+.twentytwenty-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.twentytwenty-container img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  display: block;
+}
+
+.twentytwenty-before {
+  z-index: 2;
+}
+
+.twentytwenty-after {
+  z-index: 1;
+}
+
+.twentytwenty-handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #fff;
+  margin-left: -1px;
+  cursor: ew-resize;
+  z-index: 3;
+}
+
+.twentytwenty-handle:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.twentytwenty-handle:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+  transform: translate(-50%, -50%);
+  margin-top: 2px;
+}
+
+.twentytwenty-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.twentytwenty-before-label,
+.twentytwenty-after-label {
+  position: absolute;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  z-index: 4;
+}
+
+.twentytwenty-before-label {
+  left: 10px;
+}
+
+.twentytwenty-after-label {
+  right: 10px;
+}

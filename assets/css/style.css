@@ -1353,7 +1353,7 @@ margin-bottom: 30px;
 .achievement-card{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
 
 .achievement-number{
@@ -1421,3 +1421,63 @@ width: 473px;
 }
 
   
+.reviews{
+  background-image: url(/assets/img/review.png);
+  padding: 67px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+}
+
+.reviews-title{
+  font: 800 36px var(--second-family);
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.reviews-header{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.reviews-description{
+  font: 400 18px / 139% var(--font-family);
+color: #fff;
+
+}
+
+.review-card{
+  border: 1px solid #dfdfdf;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding: 35px;
+background: #f5faf9;
+}
+
+.review-logo img{
+  height: 20px;
+  object-fit: cover;
+}
+
+.review-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-text{
+  font: 400 18px / 139% var(--font-family);
+color: #000;
+}
+
+.review-author{
+  font: italic 400 18px / 139% var(--font-family);
+text-align: right;
+color: #000;
+}
